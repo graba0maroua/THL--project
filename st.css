@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.change{
+    margin-top:16px ;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 30px;
+    padding-right: 30px;
+    font-size: 23px;
+    border: #f7cac9;
+}
+.parts{
+    margin-left: 5px;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    text-align: center;
+    
+}
+.for h1{
+    margin-top: 30px;
+    color: #034f84;
+    margin-bottom: 27px;
+
+}
+
+.parts::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:  #f7cac9;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+ }
+ .parts:hover::after{
+     width: 100%;
+ }
+ .parts a{
+    color: #034f84;
+    text-decoration: none;
+}
+.partss a{
+    color: #f7786b;
+    text-decoration: none;
+}
+.partss{
+    margin-left: 5px;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;  
+}
+.partss::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:  #f7cac9;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.partss:hover::after{
+    width: 100%;
+}
+.about{
+    
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 12px 34px;
+    font-size: 40px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5%;
+
+}
+.about{
+   
+   background: #92a8d1;
+   transition: 1.5s;
+   border: 5px solid #034f84 ;
+   
+}
+.b{
+    color: #92a8d1;
+    display: inline-block;
+    text-decoration: none;
+}
+.rr{
+    margin-left: 15px;
+    font-size: 25px;
+}
+p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.pp b{
+    font-size: 30px;
+}
+p a{
+    text-decoration: none;
+    color: black;
+       
+     
+     
+}
+.qst{
+    margin-left: 15px;
+}
